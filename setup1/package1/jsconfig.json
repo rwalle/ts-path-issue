@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ES2020"
+    ],
+    "target": "ES2020",
+    "paths": {
+      "package1/*": ["./*"],
+      "package2/*": ["../package2/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    "./**/*",
+    "../package2/**/*"
+  ]
+}
